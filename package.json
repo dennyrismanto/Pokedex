@@ -1,0 +1,26 @@
+{
+  "name": "dennyrismanto-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-full-screen": "^1.1.0",
+    "react-use": "^17.3.2",
+    "react-use-scroll-direction": "^0.1.0",
+    "wouter": "^2.8.0-alpha.2",
+    "zustand": "^3.6.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15",
+    "vite": "^2.7.2"
+  }
+}
