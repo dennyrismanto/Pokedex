@@ -4,7 +4,7 @@ export const PokemonDetail = (props) => {
       {props.data === 404 && props.types.length === 0 ? (
         <p>Not Found</p>
       ) : (
-        <div className="flex flex-col md:flex-row justify-center items-center border-2 border-black dark:border-white rounded-xl mt-6 mx-56">
+        <div className="flex flex-col md:flex-row justify-center items-center border-2 border-black dark:border-white rounded-xl mt-6 mx-2 md:mx-56">
           <div className="flex flex-col justify-center items-center w-1/2">
             <div>
               <img
