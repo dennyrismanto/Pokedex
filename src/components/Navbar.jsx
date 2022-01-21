@@ -15,7 +15,10 @@ export const NavigationBar = (props) => {
   return (
     <>
       <div className="flex flex-row justify-center items-center h-[100px] hover:border-indigo-400 border-4 border-blue-500 sticky inset-x-0 top-0 bg-blue-500">
-        <img src="./src/pokemon.png" alt="" />
+        <img
+          src="https://raw.githubusercontent.com/dennyrismanto/Pokedex/main/src/pokemon.png"
+          alt=""
+        />
         <div className="absolute top-8 right-2 md:top-8 md:right-6">
           <div className="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in ">
             <input
